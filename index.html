@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <title>PersonalPage</title>
+
+    <style>
+        a:link {
+            color: green;
+            /* background-color: rgb(80, 80, 82); */
+            text-decoration: none;
+        }
+
+        h1 {
+            text-align: center;
+
+        }
+
+
+
+        .nav {
+            width: 100%;
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .nav>ul {
+            display: flex;
+            justify-content: center;
+            padding: 20px 0;
+        }
+
+        .nav>ul>li {
+            position: relative;
+            margin: 0 20px;
+        }
+
+        .nav ul li a {
+            color: lightblue;
+            text-decoration: none;
+        }
+
+        .nav ul li a:hover {
+            color: #ce8460;
+
+        }
+
+        .nav ul li ul {
+            display: none;
+            position: absolute;
+            top: 30px;
+            left: 0px;
+            background-color: #f2f2f2;
+            padding: 10px;
+            width: 60px;
+        }
+
+        .nav ul li li {
+            margin: 5px 0;
+        }
+
+        .nav>ul>li:hover ul {
+            display: block;
+        }
+
+        footer {
+            background: gray;
+            width: 100%;
+            color: #fff;
+            /* padding: 10px 0; */
+            text-align: center;
+            position: fixed;
+            bottom: 16px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+
+
+
+
+    <div>
+        <main>
+            <h1>Introduction</h1>
+            <div class="nav">
+                <ul>
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="">ArticleSharing</a>
+                    </li>
+                    <li>
+                        <a href="">About</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </main>
+
+        <footer>
+            <p>PoweredBy:VagrantChaos</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
